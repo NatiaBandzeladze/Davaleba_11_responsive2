@@ -1,0 +1,20 @@
+.menu-container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 60px;
+}
+.flex{
+    display: flex;
+}
+.justify-space-between{
+    justify-content: space-between;
+}
+.navbar ul{
+    justify-content: flex-end;
+}
+.navbar ul li{
+    margin-right: 125px;
+}
+.navbar ul:last-child{
+    
+}
