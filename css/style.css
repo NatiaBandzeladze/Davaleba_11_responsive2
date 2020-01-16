@@ -61,8 +61,11 @@
     margin: 101px 0;
 }
 .photo-div{
-    flex-direction: column;
-    align-content: space-between;
     max-width: 420px;
-    
+}
+.margin-img{
+    margin-bottom: 30px;
+}
+.margin-h3{
+    margin: 24px 0;
 }
