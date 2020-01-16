@@ -16,8 +16,8 @@
 .flex{
     display: flex;
 }
-.justify-space-between{
-    justify-content: space-between;
+.justify-space-evenly{
+    justify-content: space-evenly;
 }
 .navbar ul{
     justify-content: flex-end;
@@ -68,4 +68,29 @@
 }
 .margin-h3{
     margin: 24px 0;
+}
+.registration{
+    min-width: 415px;
+    width: 100%;
+    margin: 5% 40%;
+
+}
+
+
+
+
+@media screen and (max-width: 1024px){
+        .photo-container{
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+        .navbar{
+            display: none;
+        }
+}
+
+
+@media (max-width:410px){
+
 }
