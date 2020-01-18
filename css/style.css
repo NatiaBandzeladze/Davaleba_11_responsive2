@@ -2,7 +2,6 @@
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    padding: 70px;
 }
 .menu-container{
     max-width: 1200px;
@@ -33,13 +32,16 @@
     font-size: 14px;
     color: #626262;
 }
+.banner{
+    padding: 0 70px;
+}
 .banner img{
     width: 100%;
 }
 .p-container{
     width: 100%;
     margin-top: 98px;
-    padding: 0 81px;
+    padding: 0 149px;
 }
 .p-container h2{
     margin: 21px 0 35px 0;
@@ -57,7 +59,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    padding: 0 81px;
+    padding: 0 149px;
     margin: 101px 0;
 }
 .photo-div{
@@ -72,10 +74,12 @@
 .registration{
     min-width: 415px;
     width: 100%;
-    margin: 5% 40%;
+    
 
 }
-
+.menu-container:hover .p-container{
+    display: none;
+}
 
 
 
@@ -86,7 +90,7 @@
     
     }
         .navbar{
-            display: none;
+            flex-direction: column;
         }
 }
 
